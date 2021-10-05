@@ -60,7 +60,7 @@ Ex: Informe M: 10
 programa deverá solicitar os seguintes dados ao usuário:
 - O intervalo para ser feita a tabuada, isto é, o início e o fim da tabuada;
 - A tabuada que ele deseja;
-- 
+
 OBS: O Final da tabuada deverá ser maior que o início. E, a tabuada deverá ser maioir do que 1.
 
 Além de imprimir a tabuada, o professor deseja que o programa imprima a soma dos resultados da
