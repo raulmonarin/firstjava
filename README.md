@@ -38,7 +38,6 @@ Considere as seguintes propriedades:
 100, 50, 10, 5, 2, e 1 (moeda) em que o valor lido pode ser decomposto. Escrever o valor lido e a
 relação de notas necessárias. 
 
-
 ========================================================================================
 
 ## TAREFA 2
@@ -75,3 +74,26 @@ tabuada. Elabore o algoritmo para o professor.
         3 x 13 = 39  
         3 x 14 = 42  
         A soma dos resultados é: 117  
+      
+========================================================================================
+
+## TAREFA 3
+
+Atividade
+Crie uma classe para representar empregados de uma organização.  
+Todo empregado possui nome, sobrenome e salário.  
+Ao se instanciar um empregado, todos os seus dados deverão ser informados pelas classes classe Principal.  
+Além disso, em qualquer momento durante a existência de um empregado, as seguintes restrições devem ser obedecidas:  
+
+1) Os valores de nome e sobrenome não podem ser iguais a null;  
+2) O nome deve ser diferente do sobrenome;  
+3) O salário deve ser um valor positivo.  
+
+Além disso, crie um método que ‘simule’ o valor do salário que um
+empregado qualquer receberia após x anos, supondo-se que, a cada ano, seu
+salário sofra aumento de 2%.  
+
+Crie a classe Principal que realize as seguintes tarefas:  
+a) Crie um empregado;  
+b) Efetue uma simulação do salário com base em 5 anos e mostre o novo salário;  
+c) Mostre todos os dados de um empregado. 
