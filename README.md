@@ -110,10 +110,10 @@ considerando-se o salário base e um valor de bônus. O bônus é um percentual 
 salário base, e é determinado com base no tempo de serviço. Para que seja possível ao usuário
 informar o tempo de serviço, a janela deverá apresentar três opções: 1 ano; 2 a 5 anos e Mais de 5
 anos. A tabela a seguir mostra o percentual de bônus de acordo com o tempo de serviço:  
-Tempo de serviço   Percentual de bônus
-    1 ano              2.5%
-    2 a 5 anos         5.0%
-    Mais de 5 anos     7.5%
+Tempo de serviço   Percentual de bônus  
+	1 ano              2.5%  
+	2 a 5 anos         5.0%  
+	Mais de 5 anos     7.5%  
 Caso o empregado possua menos de 1 ano de serviço, ele não receberá bônus. A janela gráfica deve
 possuir três botões:
 
@@ -141,20 +141,21 @@ empregado (não há necessidade de utilizar arrays/arranjos).
 ## Exercício 2. 
 Escreva um programa que simule um jogo de acertos, organizado em três níveis (fácil,
 médio e difícil). O programa deve conter uma janela gráfica que permita ao jogador escolher o nível
-do jogo e informar sua aposta (número). A tabela a seguir mostra as regras do jogo para cada nível:
-Nível Regras
-Fácil
-Dois números entre 1 e 10 devem ser gerados. O jogador ganhará se
-acertar um dos números. O jogador possui três tentativas para
+do jogo e informar sua aposta (número). A tabela a seguir mostra as regras do jogo para cada nível:  
+Nível Regras  
+
+Fácil  
+Dois números entre 1 e 10 devem ser gerados. O jogador ganhará se acertar um dos números. O jogador possui três tentativas para
 acertar.
-Médio
-Dois números entre 10 e 100 devem ser gerados. O jogador ganhará
-se acertar um dos números. O jogador possui duas tentativas para
+
+Médio  
+Dois números entre 10 e 100 devem ser gerados. O jogador ganhará se acertar um dos números. O jogador possui duas tentativas para
 acertar.
-Difícil
-Dois números entre 1 e 100 devem ser gerados. O jogador ganhará se
-acertar a soma dos números. O jogador possui uma tentativa para
+
+Difícil  
+Dois números entre 1 e 100 devem ser gerados. O jogador ganhará se acertar a soma dos números. O jogador possui uma tentativa para
 acertar.
+
 Em todos os casos, deve-se garantir que os dois números gerados pelo programa sejam diferentes
 entre si. A janela gráfica deve possuir ainda dois botões: um botão deve permitir a criação de um jogo
 com base no nível escolhido e o outro deve permitir jogar. O botão para jogar somente deve ser
