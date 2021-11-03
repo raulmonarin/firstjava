@@ -110,10 +110,12 @@ considerando-se o salário base e um valor de bônus. O bônus é um percentual 
 salário base, e é determinado com base no tempo de serviço. Para que seja possível ao usuário
 informar o tempo de serviço, a janela deverá apresentar três opções: 1 ano; 2 a 5 anos e Mais de 5
 anos. A tabela a seguir mostra o percentual de bônus de acordo com o tempo de serviço:  
+
 Tempo de serviço   Percentual de bônus  
 	1 ano              2.5%  
 	2 a 5 anos         5.0%  
 	Mais de 5 anos     7.5%  
+	
 Caso o empregado possua menos de 1 ano de serviço, ele não receberá bônus. A janela gráfica deve
 possuir três botões:
 
