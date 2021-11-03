@@ -97,3 +97,67 @@ Crie a classe Principal que realize as seguintes tarefas:
 a) Crie um empregado;  
 b) Efetue uma simulação do salário com base em 5 anos e mostre o novo salário;  
 c) Mostre todos os dados de um empregado. 
+
+========================================================================================
+
+## Atividade 1
+
+## Exercício 1. 
+Elabore um programa composto por uma janela gráfica que permita ao usuário inserir
+dados de empregados de uma empresa. Para um empregado, o usuário deve informar nome, salário
+base e tempo de serviço. Todo empregado também possui salário final, que deve ser calculado
+considerando-se o salário base e um valor de bônus. O bônus é um percentual calculado sobre o
+salário base, e é determinado com base no tempo de serviço. Para que seja possível ao usuário
+informar o tempo de serviço, a janela deverá apresentar três opções: 1 ano; 2 a 5 anos e Mais de 5
+anos. A tabela a seguir mostra o percentual de bônus de acordo com o tempo de serviço:  
+Tempo de serviço   Percentual de bônus
+    1 ano              2.5%
+    2 a 5 anos         5.0%
+    Mais de 5 anos     7.5%
+Caso o empregado possua menos de 1 ano de serviço, ele não receberá bônus. A janela gráfica deve
+possuir três botões:
+
+Botão “Novo empregado”: esse botão deve permitir limpar todos os elementos de controle
+do formulário (se houver alguma opção de tempo de serviço marcada, ela deverá ser
+desmarcada). No momento que o programa for carregado, esse deverá ser o único botão
+habilitado na janela.
+
+Botão “Inserir dados”: esse botão somente será habilitado após o usuário clicar no botão
+“Novo empregado”. No momento que o botão “Inserir dados” for clicado, um empregado
+deverá ser criado no programa, e seu salário final deverá ser devidamente calculado. Esse
+botão deve manter-se desabilitado até que o botão “Novo empregado” seja clicado
+novamente.
+
+Botão “Imprimir dados”: esse botão somente será habilitado após o usuário clicar no botão
+“Inserir dados”. O objetivo desse botão é exibir na tela todos os dados do empregado
+inserido no programa (incluindo-se seu salário final). Use a classe JOptionPane para esse
+propósito.
+
+Além da classe que represente uma janela gráfica, crie uma classe que represente empregados (nome,
+salário base, tempo de serviço e salário final). O programa deve armazenar os dados de apenas um
+empregado (não há necessidade de utilizar arrays/arranjos). 
+
+
+## Exercício 2. 
+Escreva um programa que simule um jogo de acertos, organizado em três níveis (fácil,
+médio e difícil). O programa deve conter uma janela gráfica que permita ao jogador escolher o nível
+do jogo e informar sua aposta (número). A tabela a seguir mostra as regras do jogo para cada nível:
+Nível Regras
+Fácil
+Dois números entre 1 e 10 devem ser gerados. O jogador ganhará se
+acertar um dos números. O jogador possui três tentativas para
+acertar.
+Médio
+Dois números entre 10 e 100 devem ser gerados. O jogador ganhará
+se acertar um dos números. O jogador possui duas tentativas para
+acertar.
+Difícil
+Dois números entre 1 e 100 devem ser gerados. O jogador ganhará se
+acertar a soma dos números. O jogador possui uma tentativa para
+acertar.
+Em todos os casos, deve-se garantir que os dois números gerados pelo programa sejam diferentes
+entre si. A janela gráfica deve possuir ainda dois botões: um botão deve permitir a criação de um jogo
+com base no nível escolhido e o outro deve permitir jogar. O botão para jogar somente deve ser
+habilitado após o jogador ter iniciado um jogo e deverá manter-se habilitado até que o jogo termine.
+Crie uma classe que represente a lógica do jogo. Use os componentes JRadioButton e ButtonGroup
+para permitir ao jogador selecionar um determinado nível. 
